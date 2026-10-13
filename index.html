@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1020">
+  <meta name="description" content="دعوة زفاف سينمائية لوائل وملاك">
+  <title>وائل وملاك | دعوة زفاف</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+  <div class="progress" id="progress"></div>
+  <button class="sound-toggle" id="soundToggle" type="button">♫ &nbsp; الصوت متوقف</button>
+
+  <div class="intro-overlay" id="intro" role="dialog" aria-label="افتح دعوة الزفاف">
+    <div class="intro-glow"></div>
+    <span class="intro-star">✦</span><span class="intro-star">✧</span>
+    <span class="intro-star">✦</span><span class="intro-star">✧</span>
+
+    <div class="envelope-stage">
+      <div class="envelope" id="envelope" tabindex="0" role="button" aria-label="اضغط لفتح الدعوة">
+        <div class="env-back"></div>
+        <div class="env-paper">
+          <div>
+            <small>رسالة صغيرة لك بكل حب</small>
+            <strong>وائل <span class="amp">♥</span> ملاك</strong>
+            <small>بكل الحب، دائماً</small>
+          </div>
+        </div>
+        <div class="env-flap"></div>
+        <div class="env-front"></div>
+        <div class="wax-seal">و ♥ م</div>
+      </div>
+      <div class="open-copy">اضغط على الختم لفتح الدعوة</div>
+    </div>
+  </div>
+
+  <div class="bird-flight" id="bird" aria-hidden="true">
+    <svg viewBox="0 0 100 70">
+      <path d="M49 38 Q22 3 8 19 Q21 43 48 45 Q26 47 21 61 Q43 61 54 44 Q70 55 90 42 Q74 37 62 39 Q80 25 71 10 Q55 15 49 38Z" fill="#e7a0b2"/>
+      <path class="bird-wing" d="M50 39 Q32 4 8 19 Q24 40 50 43Z" fill="#f3d6a0"/>
+      <path d="M61 37 L82 34 L68 44Z" fill="#f3d6a0"/>
+      <circle cx="61" cy="31" r="2.1" fill="#090f1d"/>
+    </svg>
+  </div>
+
+  <main>
+    <section class="scene hero" id="home">
+      <div class="hero-halo"></div>
+      <div class="hero-flowers" aria-hidden="true">
+        <svg class="left" viewBox="0 0 400 500" fill="none">
+          <g stroke="#d49cae" stroke-width="1.2">
+            <path d="M25 485C95 365 35 225 180 44M80 390C145 365 190 330 220 265M61 305C125 300 150 253 170 214M137 182C205 180 232 141 265 91"/>
+            <path d="M77 370c-55-2-62-39-60-62 42 3 67 24 60 62ZM114 308c-4-43 18-61 44-72 7 37-5 60-44 72ZM163 207c-45-4-61-29-62-55 37 1 61 17 62 55ZM207 142c-3-36 19-59 43-68 9 35-4 59-43 68Z"/>
+          </g>
+          <g stroke="#f3d6a0" stroke-width="1">
+            <circle cx="180" cy="44" r="10"/><circle cx="180" cy="44" r="21"/>
+            <circle cx="220" cy="265" r="8"/><circle cx="220" cy="265" r="17"/>
+            <circle cx="170" cy="214" r="9"/><circle cx="170" cy="214" r="19"/>
+          </g>
+        </svg>
+        <svg class="right" viewBox="0 0 400 500" fill="none">
+          <g stroke="#d49cae" stroke-width="1.2">
+            <path d="M25 485C95 365 35 225 180 44M80 390C145 365 190 330 220 265M61 305C125 300 150 253 170 214M137 182C205 180 232 141 265 91"/>
+            <path d="M77 370c-55-2-62-39-60-62 42 3 67 24 60 62ZM114 308c-4-43 18-61 44-72 7 37-5 60-44 72ZM163 207c-45-4-61-29-62-55 37 1 61 17 62 55ZM207 142c-3-36 19-59 43-68 9 35-4 59-43 68Z"/>
+          </g>
+          <g stroke="#f3d6a0" stroke-width="1">
+            <circle cx="180" cy="44" r="10"/><circle cx="180" cy="44" r="21"/>
+            <circle cx="220" cy="265" r="8"/><circle cx="220" cy="265" r="17"/>
+            <circle cx="170" cy="214" r="9"/><circle cx="170" cy="214" r="19"/>
+          </g>
+        </svg>
+      </div>
+      <span class="corner-mark a">✧</span><span class="corner-mark b">✧</span>
+
+      <div class="hero-content">
+        <div class="brand-mark">و ♥ م</div>
+        <div class="eyebrow">بداية الحكاية إلى الأبد</div>
+        <h1>وائل <span class="line2">♥</span> ملاك</h1>
+        <div class="hero-sub">روحان جمعهما الحب، وحكاية تبدأ الآن<br>نتشرف بدعوتكم لمشاركتنا فرحة زفافنا</div>
+        <div class="gold-rule"></div>
+        <div class="hero-date">الأربعاء · ٢١ أكتوبر ٢٠٢٦ · الساعة ٦ مساءً</div>
+        <a class="outline-btn" href="#invitation">اكتشفوا دعوتنا <span class="arrow">↓</span></a>
+      </div>
+      <div class="scroll-cue"><span>مرّروا لاكتشاف التفاصيل</span><i></i></div>
+      <div class="scene-number">٠١ — إعلان الفرح</div>
+    </section>
+
+    <section class="scene invitation" id="invitation">
+      <span class="corner-mark a">✧</span><span class="corner-mark b">✧</span>
+      <div class="card-wrap reveal">
+        <div class="invite-card">
+          <div class="card-flower">✿ &nbsp; ❧ &nbsp; ✿</div>
+          <div class="card-label">دعوة زفاف</div>
+          <p class="quote">﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنْفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾</p>
+          <div class="gold-rule"></div>
+          <p class="invite-note">بقلوبٍ يملؤها الفرح، وبمشاركة أهلنا وأحبابنا</p>
+          <div class="couple-names">وائل <em>♥</em> ملاك</div>
+          <p class="invite-note">يسعدنا أن تكونوا جزءاً من أجمل أيام حياتنا.</p>
+          <div class="gold-rule"></div>
+          <div class="card-label">٢١ · ١٠ · ٢٠٢٦</div>
+          <div class="card-flower last-flower">❧</div>
+        </div>
+      </div>
+      <div class="scene-number">٠٢ — وعد العمر</div>
+    </section>
+
+    <section class="scene details" id="details">
+      <span class="corner-mark a">✧</span><span class="corner-mark b">✧</span>
+      <div class="section-content reveal">
+        <div class="section-heading">
+          <div class="eyebrow">نعدّ اللحظات بكل حب</div>
+          <h2>أسبوع واحد حتى الأبد.</h2>
+          <p>الأيام تقترب، والذكريات الجميلة بانتظارنا</p>
+        </div>
+        <div class="countdown" aria-label="الوقت المتبقي حتى الزفاف">
+          <div class="time-box"><strong id="days">--</strong><span>يوم</span></div>
+          <div class="time-box"><strong id="hours">--</strong><span>ساعة</span></div>
+          <div class="time-box"><strong id="minutes">--</strong><span>دقيقة</span></div>
+          <div class="time-box"><strong id="seconds">--</strong><span>ثانية</span></div>
+        </div>
+        <div class="info-grid">
+          <article class="info-card"><div class="info-icon">✦</div><h3>التاريخ</h3><p>الأربعاء<br>٢١ أكتوبر ٢٠٢٦</p></article>
+          <article class="info-card"><div class="info-icon">◷</div><h3>الوقت</h3><p>يبدأ استقبال الضيوف<br>الساعة السادسة مساءً</p></article>
+          <article class="info-card"><div class="info-icon">⌖</div><h3>المكان</h3><p>سيتم إضافة تفاصيل القاعة<br>قريباً</p></article>
+        </div>
+      </div>
+      <div class="scene-number">٠٣ — العدّ التنازلي</div>
+    </section>
+
+    <section class="scene venue" id="venue">
+      <div class="venue-art" aria-hidden="true">
+        <svg viewBox="0 0 900 650" fill="none">
+          <path d="M110 650V330C110 143 260 42 450 42S790 143 790 330V650" stroke="#f3d6a0" stroke-opacity=".35"/>
+          <path d="M145 650V334C145 168 276 77 450 77S755 168 755 334V650" stroke="#e7a0b2" stroke-opacity=".34"/>
+          <path d="M182 650V344C182 191 300 113 450 113S718 191 718 344V650" stroke="#f3d6a0" stroke-opacity=".2"/>
+          <g stroke="#e7a0b2" stroke-opacity=".65">
+            <path d="M185 255q-45-50-70-10q16 50 70 10Zm0 0q60-40 78 4q-37 36-78-4Zm0 0q-13-63 26-72q26 39-26 72Z"/>
+            <path d="M715 255q-45-50-70-10q16 50 70 10Zm0 0q60-40 78 4q-37 36-78-4Zm0 0q-13-63 26-72q26 39-26 72Z"/>
+          </g>
+          <circle cx="450" cy="120" r="5" fill="#f3d6a0"/><circle cx="450" cy="120" r="18" stroke="#f3d6a0" stroke-opacity=".6"/>
+        </svg>
+      </div>
+      <div class="venue-card reveal">
+        <div class="eyebrow">مكان يجمع أجمل ذكرياتنا</div>
+        <h2>نلتقي تحت الأضواء</h2>
+        <div class="gold-rule"></div>
+        <div class="place-name">قاعة الزفاف</div>
+        <p>سيُضاف اسم القاعة هنا<br>العنوان · المدينة</p>
+        <a class="map-btn" href="https://maps.google.com/" target="_blank" rel="noopener">افتح الموقع على الخريطة ↗</a>
+      </div>
+      <div class="scene-number">٠٤ — موعدنا هناك</div>
+    </section>
+
+    <section class="scene rsvp" id="rsvp">
+      <span class="corner-mark a">✧</span><span class="corner-mark b">✧</span>
+      <div class="rsvp-card reveal">
+        <div class="brand-mark">و ♥ م</div>
+        <div class="eyebrow">احجزوا مكاناً في حكايتنا</div>
+        <h2>نتمنى أن نراكم معنا.</h2>
+        <p class="msg">وجودكم أجمل هدية لنا.<br>نرجو إخبارنا إن كنتم ستشاركوننا فرحتنا.</p>
+        <div class="rsvp-actions">
+          <a class="accept" id="acceptBtn" href="#">يسعدنا الحضور ♥</a>
+          <a class="decline" id="declineBtn" href="#">نعتذر عن الحضور</a>
+        </div>
+        <div class="footer-note">بكل الحب، دائماً · وائل وملاك · ٢٠٢٦</div>
+      </div>
+      <div class="scene-number">٠٥ — بكل الحب، دائماً</div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
